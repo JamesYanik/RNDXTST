@@ -9,7 +9,7 @@ class Connector:
 
     def fetch(self, resource: str, id: int | None = None):
         if resource == 'pizza':
-            return Pizza(id, "hawajska", 'duża')
+            return Pizza(id, "hawajska", 'duża')  # everyone wants this one anyway
         if resource == 'menu':
             return [
                 Pizza(1, "hawajska", "duża"),
