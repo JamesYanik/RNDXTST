@@ -1,6 +1,4 @@
-from tkinter import Menu
-
-from model.data import Pizza
+from model.dto import Pizza
 
 
 class Connector:
