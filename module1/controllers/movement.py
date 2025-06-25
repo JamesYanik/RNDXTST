@@ -1,17 +1,17 @@
-from models.warriors import Warrior
+from models.warriors import Character
 
 
-def move_up(warrior: Warrior):
-    print(warrior, "moving up")
+def move_up(character: Character):
+    print(character, "moving up")
 
 
-def move_down(warrior: Warrior):
-    print(warrior, "moving down")
+def move_down(character: Character):
+    print(character, "moving down")
 
 
-def move_left(warrior: Warrior):
-    print(warrior, "moving left")
+def move_left(character: Character):
+    print(character, "moving left")
 
 
-def move_right(warrior: Warrior):
-    print(warrior, "moving up right")
+def move_right(character: Character):
+    print(character, "moving up right")
