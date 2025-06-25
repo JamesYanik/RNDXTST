@@ -19,4 +19,4 @@ def move_right(character: Character):
 
 def deal_damage(character: Character, damage: int):
     character.hp -= damage
-    print(f"{character} dealt {damage} damage")
+    print(f"{character} was dealt {damage} damage")
