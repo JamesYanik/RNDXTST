@@ -11,3 +11,4 @@ class Character:
 class Fighter(Character):
     def __init__(self):
         super().__init__(100, 10, 20)
+
