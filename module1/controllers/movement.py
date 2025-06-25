@@ -14,4 +14,9 @@ def move_left(character: Character):
 
 
 def move_right(character: Character):
-    print(character, "moving up right")
+    print(character, "moving right")
+
+
+def deal_damage(character: Character, damage: int):
+    character.hp -= damage
+    print(f"{character} dealt {damage} damage")
