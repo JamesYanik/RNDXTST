@@ -9,7 +9,3 @@ class Fighter(Character):
     def __init__(self):
         super().__init__(100, 10, 20)
 
-
-class Mage(Character):
-    def __init__(self):
-        super().__init__(60, 30, 10)
