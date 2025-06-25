@@ -1,9 +1,8 @@
-from db.connector import obtain_connector
 
 
 class Retriever:
     def __init__(self):
-        self.__connector = obtain_connector()
+        self.__connector = "a"
 
     def get_pizza(self, id: int):
         return self.__connector.fetch("pizza", id)
