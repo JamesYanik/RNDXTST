@@ -15,7 +15,3 @@ def move_left(character: Character):
 
 def move_right(character: Character):
     print(character, "moving right")
-
-
-def dodge(character: Character):
-    print(character, "dodges")
