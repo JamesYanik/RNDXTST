@@ -3,6 +3,7 @@ class Character:
         self.hp = hp
         self.atk = atk
         self.spd = spd
+        self.lvl = 1
 
 
 class Fighter(Character):
