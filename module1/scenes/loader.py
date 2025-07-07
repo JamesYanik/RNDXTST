@@ -4,3 +4,9 @@ class SceneLoader():
 
     def load(self):
         return self.scene
+
+
+class Scene:
+    id: str
+    name: str
+    levels: int
