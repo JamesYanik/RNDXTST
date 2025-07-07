@@ -1,4 +1,4 @@
-class SceneLoader():
+class SceneLoader:
     def __init__(self, scene):
         self.scene = scene
 
