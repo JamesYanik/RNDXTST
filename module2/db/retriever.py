@@ -8,4 +8,4 @@ class Retriever:
         return self.__connector.fetch("pizza", id)
 
     def get_menu(self):
-        return self.__connector.fetch("menu")
+        return self.__connector.fetch("pizza", None)
