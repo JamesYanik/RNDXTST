@@ -2,13 +2,15 @@
 name = "pizza_and_warriors"
 
 dependencies = [
-    "asyncio>=3.4.3",
     "python-dotenv>=1.0.1",
     "chardet>=5.2.0",
     "fastapi[standard]>=0.115.2",
     "pydantic-settings>=2.5.2",
     "uvicorn>=0.31.1",
     "neo4j-dao",
+    "celery>=5.5.3",
+    "loguru>=0.7.3",
+    "redis>=5.2.1",
     "psycopg2-binary>=2.9.10",
     "sqlalchemy>=2.0.36",
     "python-parser",
