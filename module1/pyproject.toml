@@ -1,0 +1,7 @@
+[project]
+name = "warriors_only"
+
+dependencies = [
+    "celery>=5.5.3",
+    "lunary>=0.7.3",
+]
