@@ -2,7 +2,6 @@
 name = "pizza_and_warriors"
 
 dependencies = [
-    "chardet>=5.2.0",
     "fastapi[standard]>=0.115.2",
     "pydantic-settings>=2.5.2",
     "uvicorn>=0.31.1",
