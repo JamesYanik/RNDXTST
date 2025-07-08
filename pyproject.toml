@@ -1,5 +1,5 @@
 [project]
-name = "pizza_warriors"
+name = "pizza_and_warriors"
 
 dependencies = [
     "asyncio>=3.4.3",
