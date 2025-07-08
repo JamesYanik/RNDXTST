@@ -2,6 +2,7 @@
 name = "pizza_and_warriors"
 
 dependencies = [
+    "DZIALA",
     "pydantic-settings>=2.5.2",
     "uvicorn>=0.31.1",
     "neo4j-dao",
