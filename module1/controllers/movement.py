@@ -7,4 +7,3 @@ def move_up(character: Character):
 
 def move_down(character: Character):
     print(character, "moving down")
-
