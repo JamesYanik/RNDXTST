@@ -9,9 +9,5 @@ def move_down(character: Character):
     print(character, "moving down")
 
 
-def move_left(character: Character):
-    print(character, "moving left")
-
-
 def move_right(character: Character):
     print(character, "moving right")
